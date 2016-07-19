@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - '6'
+  - '5'
+  - '4'
+
+branches:
+  only:
+    - master
+    - gh-pages
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+before_install:
+  - rvm install 2.1
+
+install:
+  - npm install
+  - gem install jekyll html-proofer
+
+script:
+  - jekyll build
+  - npm test
+  - htmlproofer ./_site
+
+sudo: false

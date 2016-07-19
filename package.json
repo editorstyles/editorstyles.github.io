@@ -4,7 +4,14 @@
   "description": "Scaffold styles and variables for markdown, WordPress entry content, etc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build --production",
+    "imagemin": "gulp imagemin",
+    "production": "gulp --production",
+    "sass": "gulp sass",
+    "server": "gulp server",
+    "server-production": "gulp server --production",
+    "start": "gulp",
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -24,5 +31,20 @@
   "bugs": {
     "url": "https://github.com/ixkaito/contentstyles/issues"
   },
-  "homepage": "https://github.com/ixkaito/contentstyles#readme"
+  "homepage": "https://github.com/ixkaito/contentstyles#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-newer": "^1.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-watch": "^4.3.8",
+    "imagemin-pngquant": "^5.0.0",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^3.2.0",
+    "yargs": "^4.8.1"
+  }
 }
