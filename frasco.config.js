@@ -13,7 +13,7 @@ module.exports = {
     posts:     "_posts",
     assets:    "./",
     css:       "css",
-    sass:      "contentstyles",
+    sass:      "editorstyles",
     jsSrc:     "assets/_js",
     js:        "assets/js",
     imagesSrc: "assets/_images",
