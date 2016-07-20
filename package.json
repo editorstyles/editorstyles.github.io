@@ -1,5 +1,5 @@
 {
-  "name": "contentstyles",
+  "name": "editorstyles",
   "version": "0.0.1",
   "description": "Scaffold styles and variables for markdown, WordPress entry content, etc.",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ixkaito/contentstyles.git"
+    "url": "git+https://github.com/editorstyles/editorstyles.git"
   },
   "keywords": [
     "sass",
@@ -29,9 +29,9 @@
   "author": "Kite",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ixkaito/contentstyles/issues"
+    "url": "https://github.com/editorstyles/editorstyles/issues"
   },
-  "homepage": "https://github.com/ixkaito/contentstyles#readme",
+  "homepage": "https://editorstyles.github.io",
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",

@@ -1,8 +1,8 @@
 # Site settings
-title: ContentStyles
+title: EditorStyles
 description: Scaffold styles and variables for markdown, WordPress entry content, etc.
-url: https://ixkaito.github.io # the base hostname & protocol for your site
-baseurl: '/contentstyles' # the subpath of your site, e.g. /blog
+url: https://editorstyles.github.io # the base hostname & protocol for your site
+baseurl: '' # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
