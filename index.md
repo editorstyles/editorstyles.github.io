@@ -6,24 +6,24 @@ layout: default
 
 # Headers
 
-# H1
+# This is an H1
 
-## H2
+## This is an H2
 
-### H3
+### This is an H3
 
-#### H4
+#### This is an H4
 
-##### H5
+##### This is an H5
 
-###### H6
+###### This is an H6
 
 Alternatively, for H1 and H2, an underline-ish style:
 
-Alt-H1
+This is an Alt-H1
 ======
 
-Alt-H2
+This is an Alt-H2
 ------
 
 ## Emphasis
@@ -54,6 +54,11 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 *   Unordered list can use asterisks
 -   Or minuses
 +   Or pluses
+
+*   A list item with a blockquote:
+
+    > This is a blockquote
+    > inside a list item.
 
 ## Links
 
@@ -145,6 +150,25 @@ Markdown | Less | Pretty
 Quote break.
 
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+
+Blockquotes can be nested:
+
+> This is the first level of quoting.
+>
+> > This is nested blockquote.
+>
+> Back to the first level.
+
+Blockquotes can contain other Markdown elements, including headers, lists, and code blocks:
+
+> ## This is a header.
+> 
+> 1.   This is the first list item.
+> 2.   This is the second list item.
+> 
+> Here's some example code:
+> 
+>     return shell_exec("echo $input | $markdown_script");
 
 ## Inline HTML
 
