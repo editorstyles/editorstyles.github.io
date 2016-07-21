@@ -351,8 +351,7 @@
 }
 
 .editor-style h3 {
-  font-size: 1.5em;
-  line-height: 1.43;
+  font-size: 1.25em;
 }
 
 .editor-style h3 .anchor {
@@ -360,7 +359,7 @@
 }
 
 .editor-style h4 {
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .editor-style h4 .anchor {
@@ -368,7 +367,7 @@
 }
 
 .editor-style h5 {
-  font-size: 1em;
+  font-size: 0.875em;
 }
 
 .editor-style h5 .anchor {
@@ -376,8 +375,8 @@
 }
 
 .editor-style h6 {
-  font-size: 1em;
   color: #777;
+  font-size: 0.85em;
 }
 
 .editor-style h6 .anchor {
@@ -436,12 +435,12 @@
   padding-left: 2em;
 }
 
-.editor-style ul ul,
 .editor-style ul ol,
+.editor-style ul ul,
 .editor-style ol ol,
 .editor-style ol ul {
-  margin-top: 0;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .editor-style li > p {
@@ -453,23 +452,22 @@
 }
 
 .editor-style dl dt {
-  padding: 0;
-  margin-top: 16px;
   font-size: 1em;
   font-style: italic;
   font-weight: bold;
+  margin-top: 16px;
+  padding: 0;
 }
 
 .editor-style dl dd {
-  padding: 0 16px;
   margin-bottom: 16px;
+  padding: 0 16px;
 }
 
 .editor-style table {
   display: block;
-  width: 100%;
   overflow: auto;
-  word-break: normal;
+  width: 100%;
   word-break: keep-all;
 }
 
@@ -479,8 +477,8 @@
 
 .editor-style table th,
 .editor-style table td {
-  padding: 6px 13px;
   border: 1px solid #ddd;
+  padding: 6px 13px;
 }
 
 .editor-style table tr {
@@ -493,25 +491,22 @@
 }
 
 .editor-style img {
-  max-width: 100%;
-  box-sizing: content-box;
   background-color: #fff;
+  box-sizing: content-box;
+  max-width: 100%;
 }
 
 .editor-style code {
-  padding: 0;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
-  margin: 0;
-  font-size: 85%;
   background-color: rgba(0, 0, 0, 0.04);
   border-radius: 3px;
+  font-size: 85%;
+  margin: 0;
+  padding: 0.2em 0;
 }
 
-.editor-style code:before,
-.editor-style code:after {
+.editor-style code:before, .editor-style code:after {
+  content: " ";
   letter-spacing: -0.2em;
-  content: "\00a0";
 }
 
 .editor-style pre > code {
