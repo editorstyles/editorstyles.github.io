@@ -318,22 +318,32 @@
   visibility: visible;
 }
 
+.editor-style h1 tt,
+.editor-style h2 tt,
+.editor-style h3 tt,
+.editor-style h4 tt,
+.editor-style h5 tt,
+.editor-style h6 tt {
+  font-size: inherit;
+}
+
 .editor-style h1 {
-  padding-bottom: 0.3em;
-  font-size: 2.25em;
-  line-height: 1.2;
   border-bottom: 1px solid #eee;
+  font-size: 2em;
+  padding-bottom: 0.3em;
 }
 
 .editor-style h1 .anchor {
+  float: left;
   line-height: 1;
+  margin-left: -20px;
+  padding-right: 4px;
 }
 
 .editor-style h2 {
-  padding-bottom: 0.3em;
-  font-size: 1.75em;
-  line-height: 1.225;
   border-bottom: 1px solid #eee;
+  font-size: 1.5em;
+  padding-bottom: 0.3em;
 }
 
 .editor-style h2 .anchor {
