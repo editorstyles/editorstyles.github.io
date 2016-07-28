@@ -94,6 +94,12 @@ table {
   margin: 0.375em 0 1.75em 1.75em;
 }
 
+.editor-style .aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto 1.75em;
+}
+
 .editor-style svg:not(:root) {
   overflow: hidden;
 }
