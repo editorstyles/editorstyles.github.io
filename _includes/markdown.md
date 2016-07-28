@@ -86,12 +86,12 @@ Some text to show that the reference links can follow later.
 Here's Octocat (hover to see the title text):
 
 Inline-style: 
-![alt text](https://a248.e.akamai.net/assets.github.com/images/icons/emoji/octocat.png "Octocat 1")
+![alt text]({{ site.baseurl }}/assets/images/octocat.png "Octocat 1")
 
 Reference-style: 
 ![alt text][Octocat]
 
-[Octocat]: https://a248.e.akamai.net/assets.github.com/images/icons/emoji/octocat.png "Octocat 2"
+[Octocat]: {{ site.baseurl }}/assets/images/octocat.png "Octocat 2"
 
 ## Code and Syntax Highlighting
 
