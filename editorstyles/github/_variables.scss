@@ -1,17 +1,8 @@
-$container: '.editor-style' !default;
-
-// Text color on `<body>`.
-$text-color: #333 !default;
-
-// Textual link color.
-$link-color:            #4078c0 !default;
-$link-background-color: transparent !default;
-$link-decoration:       none !default;
-$link-hover-color:      $link-color !default;
-$link-hover-decoration: underline !default;
-
+$container-class: '.editor-style' !default;
 
 //== Typography
+
+$text-color: #333 !default;
 
 $font-family-sans-serif:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
                           "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
@@ -22,6 +13,12 @@ $font-family-base:        $font-family-sans-serif !default;
 $font-size-base:          16px !default;
 
 $line-height-base:        1.6 !default;
+
+$link-color:              #4078c0 !default;
+$link-background-color:   transparent !default;
+$link-decoration:         none !default;
+$link-hover-color:        $link-color !default;
+$link-hover-decoration:   underline !default;
 
 $headings-font-family:    inherit !default;
 $headings-font-weight:    600 !default;
@@ -41,7 +38,9 @@ $h2-border-color:         #eee !default;
 $h2-padding-vertical:     0.3em !default;
 
 $h3-font-size:            1.25em !default;
+
 $h4-font-size:            1em !default;
+
 $h5-font-size:            0.875em !default;
 
 $h6-font-size:            0.875em !default;
@@ -93,10 +92,12 @@ $hr-width:                0.25em !default;
 
 $table-background-color:        #fff !default;
 $table-background-color-accent: #f8f8f8 !default;
-$table-cell-padding:            6px 13px !default;
+
 $table-border-width:            1px !default;
 $table-border-style:            solid !default;
 $table-border-color:            #ddd !default;
+
+$table-cell-padding:            6px 13px !default;
 
 $tr-border-width:               1px !default;
 $tr-border-style:               solid !default;
