@@ -9,11 +9,6 @@
 	line-height: 1.6;
 	word-wrap: break-word;
 
-	@font-face {
-		font-family: octicons-link;
-		src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
-	}
-
 	a:not([href]) {
 		color: inherit;
 		text-decoration: none;
@@ -210,70 +205,9 @@
 		font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
 	}
 
-	.pl-0 {
-		padding-left: 0 !important;
-	}
-
-	.pl-1 {
-		padding-left: 3px !important;
-	}
-
-	.pl-2 {
-		padding-left: 6px !important;
-	}
-
-	.pl-3 {
-		padding-left: 12px !important;
-	}
-
-	.pl-4 {
-		padding-left: 24px !important;
-	}
-
-	.pl-5 {
-		padding-left: 36px !important;
-	}
-
-	.pl-6 {
-		padding-left: 48px !important;
-	}
-
-	.form-select::-ms-expand {
-		opacity: 0;
-	}
-
-	.markdown-body:before {
-		display: table;
-		content: "";
-	}
-
-	.markdown-body:after {
-		display: table;
-		clear: both;
-		content: "";
-	}
-
-	.markdown-body>*:first-child {
-		margin-top: 0 !important;
-	}
-
-	.markdown-body>*:last-child {
-		margin-bottom: 0 !important;
-	}
-
 	a:not([href]) {
 		color: inherit;
 		text-decoration: none;
-	}
-
-	.anchor {
-		display: inline-block;
-		padding-right: 2px;
-		margin-left: -18px;
-	}
-
-	.anchor:focus {
-		outline: none;
 	}
 
 	h1,
@@ -287,20 +221,6 @@
 		margin-bottom: 16px;
 		margin-top: 24px;
 
-		.octicon-link {
-			color: #000;
-			vertical-align: middle;
-			visibility: hidden;
-		}
-
-		&:hover .anchor {
-			text-decoration: none;
-		}
-
-		&:hover .anchor .octicon-link {
-			visibility: visible;
-		}
-
 		tt {
 			font-size: inherit;
 		}
@@ -310,59 +230,32 @@
 		border-bottom: 1px solid #eee;
 		font-size: 2em;
 		padding-bottom: 0.3em;
-
-		.anchor {
-			float: left;
-			line-height: 1;
-			margin-left: -20px;
-			padding-right: 4px;
-		}
 	}
 
 	h2 {
 		border-bottom: 1px solid #eee;
 		font-size: 1.5em;
 		padding-bottom: 0.3em;
-
-		.anchor {
-			line-height: 1;
-		}
 	}
 
 
 	h3 {
 		font-size: 1.25em;
-
-		.anchor {
-			line-height: 1.2;
-		}
 	}
 
 
 	h4 {
 		font-size: 1em;
-
-		.anchor {
-			line-height: 1.2;
-		}
 	}
 
 
 	h5 {
 		font-size: 0.875em;
-
-		.anchor {
-			line-height: 1.1;
-		}
 	}
 
 	h6 {
 		color: #777;
 		font-size: 0.85em;
-
-		.anchor {
-			line-height: 1.1;
-		}
 	}
 
 	p,
@@ -543,105 +436,6 @@
 		content: normal;
 	}
 
-	.pl-c {
-		color: #969896;
-	}
-
-	.pl-c1,
-	.pl-s .pl-v {
-		color: #0086b3;
-	}
-
-	.pl-e,
-	.pl-en {
-		color: #795da3;
-	}
-
-	.pl-s .pl-s1,
-	.pl-smi {
-		color: #333;
-	}
-
-	.pl-ent {
-		color: #63a35c;
-	}
-
-	.pl-k {
-		color: #a71d5d;
-	}
-
-	.pl-pds,
-	.pl-s,
-	.pl-s .pl-pse .pl-s1,
-	.pl-sr,
-	.pl-sr .pl-cce,
-	.pl-sr .pl-sra,
-	.pl-sr .pl-sre {
-		color: #183691;
-	}
-
-	.pl-v {
-		color: #ed6a43;
-	}
-
-	.pl-id {
-		color: #b52a1d;
-	}
-
-	.pl-ii {
-		background-color: #b52a1d;
-		color: #f8f8f8;
-	}
-
-	.pl-sr .pl-cce {
-		color: #63a35c;
-		font-weight: bold;
-	}
-
-	.pl-ml {
-		color: #693a17;
-	}
-
-	.pl-mh,
-	.pl-mh .pl-en,
-	.pl-ms {
-		color: #1d3e81;
-		font-weight: bold;
-	}
-
-	.pl-mq {
-		color: #008080;
-	}
-
-	.pl-mi {
-		color: #333;
-		font-style: italic;
-	}
-
-	.pl-mb {
-		color: #333;
-		font-weight: bold;
-	}
-
-	.pl-md {
-		background-color: #ffecec;
-		color: #bd2c00;
-	}
-
-	.pl-mi1 {
-		background-color: #eaffea;
-		color: #55a532;
-	}
-
-	.pl-mdr {
-		color: #795da3;
-		font-weight: bold;
-	}
-
-	.pl-mo {
-		color: #1d3e81;
-	}
-
 	kbd {
 		display: inline-block;
 		padding: 3px 5px;
@@ -654,36 +448,6 @@
 		border-bottom-color: #bbb;
 		border-radius: 3px;
 		box-shadow: inset 0 -1px 0 #bbb;
-	}
-
-	.full-commit .btn-outline:not(:disabled):hover {
-		color: #4078c0;
-		border: 1px solid #4078c0;
-	}
-
-	:checked+.radio-label {
-		position: relative;
-		z-index: 1;
-		border-color: #4078c0;
-	}
-
-	.octicon {
-		display: inline-block;
-		vertical-align: text-top;
-		fill: currentColor;
-	}
-
-	.task-list-item {
-		list-style-type: none;
-	}
-
-	.task-list-item+.task-list-item {
-		margin-top: 3px;
-	}
-
-	.task-list-item input {
-		margin: 0 0.2em 0.25em -1.6em;
-		vertical-align: middle;
 	}
 
 	hr {
