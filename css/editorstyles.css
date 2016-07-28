@@ -20,6 +20,14 @@
   max-width: 100%;
 }
 
+.editor-style img[align="right"] {
+  padding-left: 20px;
+}
+
+.editor-style img[align="left"] {
+  padding-right: 20px;
+}
+
 .editor-style svg:not(:root) {
   overflow: hidden;
 }
@@ -75,6 +83,10 @@
 .editor-style ol ul ol,
 .editor-style ol ol ol {
   list-style-type: lower-alpha;
+}
+
+.editor-style li + li {
+  margin-top: 0.25em;
 }
 
 .editor-style li > p {
@@ -248,6 +260,15 @@
 .editor-style tt:after {
   content: "\00a0";
   letter-spacing: -0.2em;
+}
+
+.editor-style code br,
+.editor-style tt br {
+  display: none;
+}
+
+.editor-style del code {
+  text-decoration: inherit;
 }
 
 .editor-style kbd {

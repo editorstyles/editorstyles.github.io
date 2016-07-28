@@ -109,6 +109,17 @@ tt {
 		content: "\00a0";
 		letter-spacing: -0.2em;
 	}
+
+	br {
+		display: none;
+	}
+}
+
+del {
+
+	code {
+		text-decoration: inherit;
+	}
 }
 
 kbd {

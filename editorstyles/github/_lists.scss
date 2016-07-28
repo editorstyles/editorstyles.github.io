@@ -28,6 +28,10 @@ ol {
 
 li {
 
+	+ li {
+		margin-top: 0.25em;
+	}
+
 	> p {
 		margin-top: 16px;
 	}
