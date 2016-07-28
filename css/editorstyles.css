@@ -84,6 +84,16 @@ table {
   padding-right: 20px;
 }
 
+.editor-style .alignleft {
+  float: left;
+  margin: 0.375em 1.75em 1.75em 0;
+}
+
+.editor-style .alignright {
+  float: right;
+  margin: 0.375em 0 1.75em 1.75em;
+}
+
 .editor-style svg:not(:root) {
   overflow: hidden;
 }
