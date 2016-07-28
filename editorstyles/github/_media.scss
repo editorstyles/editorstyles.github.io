@@ -3,6 +3,7 @@ img {
 	border-style: none;
 	box-sizing: content-box;
 	max-width: 100%;
+	height: auto;
 
 	&[align="right"] {
 		padding-left: 20px;
@@ -16,4 +17,8 @@ img {
 
 svg:not(:root) {
 	overflow: hidden;
+}
+
+figure {
+	max-width: 100%;
 }
