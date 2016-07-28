@@ -1,0 +1,29 @@
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 16px;
+	overflow: auto;
+	width: 100%;
+	word-break: keep-all;
+
+	th {
+		font-weight: bold;
+	}
+
+	th,
+	td {
+		border: 1px solid #ddd;
+		padding: 6px 13px;
+	}
+
+	tr {
+		background-color: #fff;
+		border-top: 1px solid #ccc;
+
+		&:nth-child(2n) {
+			background-color: #f8f8f8;
+		}
+	}
+}

@@ -1,8 +1,9 @@
 .editor-style {
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
   color: #333;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
@@ -10,6 +11,125 @@
 
 .editor-style * {
   box-sizing: border-box;
+}
+
+.editor-style img {
+  background-color: #fff;
+  border-style: none;
+  box-sizing: content-box;
+  max-width: 100%;
+}
+
+.editor-style svg:not(:root) {
+  overflow: hidden;
+}
+
+.editor-style button:-moz-focusring,
+.editor-style [type="button"]:-moz-focusring,
+.editor-style [type="reset"]:-moz-focusring,
+.editor-style [type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+.editor-style input {
+  font: inherit;
+  font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  overflow: visible;
+}
+
+.editor-style [type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.editor-style ul,
+.editor-style ol,
+.editor-style dl {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.editor-style ul,
+.editor-style ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.editor-style ul ol,
+.editor-style ol ol {
+  list-style-type: lower-roman;
+}
+
+.editor-style ul ul,
+.editor-style ul ol,
+.editor-style ol ul,
+.editor-style ol ol {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.editor-style ul ul ol,
+.editor-style ul ol ol,
+.editor-style ol ul ol,
+.editor-style ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.editor-style li > p {
+  margin-top: 16px;
+}
+
+.editor-style dl {
+  padding: 0;
+}
+
+.editor-style dl dt {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 16px;
+  padding: 0;
+}
+
+.editor-style dl dd {
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+.editor-style dd {
+  margin-left: 0;
+}
+
+.editor-style table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 16px;
+  overflow: auto;
+  width: 100%;
+  word-break: keep-all;
+}
+
+.editor-style table th {
+  font-weight: bold;
+}
+
+.editor-style table th,
+.editor-style table td {
+  border: 1px solid #ddd;
+  padding: 6px 13px;
+}
+
+.editor-style table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.editor-style table tr:nth-child(2n) {
+  background-color: #f8f8f8;
 }
 
 .editor-style h1,
@@ -65,7 +185,7 @@
 
 .editor-style p {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .editor-style a {
@@ -88,7 +208,7 @@
 .editor-style blockquote {
   border-left: 0.25em solid #ddd;
   color: #777;
-  margin: 0;
+  margin: 0 0 16px;
   padding: 0 1em;
 }
 
@@ -103,25 +223,6 @@
 .editor-style strong {
   font-weight: inherit;
   font-weight: bolder;
-}
-
-.editor-style .highlight {
-  margin-bottom: 16px;
-}
-
-.editor-style .highlight pre,
-.editor-style pre {
-  background-color: #f7f7f7;
-  border-radius: 3px;
-  font-size: 85%;
-  line-height: 1.45;
-  overflow: auto;
-  padding: 16px;
-}
-
-.editor-style .highlight pre {
-  margin-bottom: 0;
-  word-break: normal;
 }
 
 .editor-style code,
@@ -164,9 +265,14 @@
 }
 
 .editor-style pre {
-  margin-top: 0;
-  margin-bottom: 0;
+  background-color: #f7f7f7;
+  border-radius: 3px;
   font-size: 85%;
+  line-height: 1.45;
+  margin-top: 0;
+  margin-bottom: 16px;
+  overflow: auto;
+  padding: 16px;
   word-wrap: normal;
 }
 
@@ -199,189 +305,32 @@
   content: normal;
 }
 
-.editor-style img {
-  border-style: none;
-}
-
-.editor-style svg:not(:root) {
-  overflow: hidden;
-}
-
-.editor-style hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-}
-
-.editor-style input {
-  font: inherit;
-  margin: 0;
-}
-
-.editor-style input {
-  overflow: visible;
-}
-
-.editor-style button:-moz-focusring,
-.editor-style [type="button"]:-moz-focusring,
-.editor-style [type="reset"]:-moz-focusring,
-.editor-style [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-.editor-style [type="checkbox"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-
-.editor-style table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-
-.editor-style td,
-.editor-style th {
-  padding: 0;
-}
-
-.editor-style * {
-  box-sizing: border-box;
-}
-
-.editor-style input {
-  font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-.editor-style hr {
-  height: 0;
-  margin: 15px 0;
-  overflow: hidden;
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid #ddd;
-}
-
-.editor-style hr::before {
-  display: table;
-  content: "";
-}
-
-.editor-style hr::after {
-  display: table;
-  clear: both;
-  content: "";
-}
-
-.editor-style ul,
-.editor-style ol {
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.editor-style ol ol,
-.editor-style ul ol {
-  list-style-type: lower-roman;
-}
-
-.editor-style ul ul ol,
-.editor-style ul ol ol,
-.editor-style ol ul ol,
-.editor-style ol ol ol {
-  list-style-type: lower-alpha;
-}
-
-.editor-style dd {
-  margin-left: 0;
-}
-
-.editor-style p,
-.editor-style blockquote,
-.editor-style ul,
-.editor-style ol,
-.editor-style dl,
-.editor-style table,
-.editor-style pre {
+.editor-style .highlight {
   margin-bottom: 16px;
-  margin-top: 0;
+}
+
+.editor-style .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
 }
 
 .editor-style hr {
   background-color: #e7e7e7;
-  border: 0 none;
+  border: 0;
+  box-sizing: content-box;
   height: 0.25em;
   margin: 24px 0;
+  overflow: hidden;
   padding: 0;
 }
 
-.editor-style ul,
-.editor-style ol {
-  padding-left: 2em;
+.editor-style hr:before, .editor-style hr:after {
+  display: table;
+  content: "";
 }
 
-.editor-style ul ol,
-.editor-style ul ul,
-.editor-style ol ol,
-.editor-style ol ul {
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.editor-style li > p {
-  margin-top: 16px;
-}
-
-.editor-style dl {
-  padding: 0;
-}
-
-.editor-style dl dt {
-  font-size: 1em;
-  font-style: italic;
-  font-weight: bold;
-  margin-top: 16px;
-  padding: 0;
-}
-
-.editor-style dl dd {
-  margin-bottom: 16px;
-  padding: 0 16px;
-}
-
-.editor-style table {
-  display: block;
-  overflow: auto;
-  width: 100%;
-  word-break: keep-all;
-}
-
-.editor-style table th {
-  font-weight: bold;
-}
-
-.editor-style table th,
-.editor-style table td {
-  border: 1px solid #ddd;
-  padding: 6px 13px;
-}
-
-.editor-style table tr {
-  background-color: #fff;
-  border-top: 1px solid #ccc;
-}
-
-.editor-style table tr:nth-child(2n) {
-  background-color: #f8f8f8;
-}
-
-.editor-style img {
-  background-color: #fff;
-  box-sizing: content-box;
-  max-width: 100%;
-}
-
-.editor-style hr {
-  border-bottom-color: #eee;
+.editor-style hr:after {
+  clear: both;
 }
 
 .editor-style {

@@ -1,0 +1,10 @@
+img {
+	background-color: #fff;
+	border-style: none;
+	box-sizing: content-box;
+	max-width: 100%;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}

@@ -1,0 +1,55 @@
+ul,
+ol,
+dl {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 2em;
+
+	ol {
+		list-style-type: lower-roman;
+	}
+
+	ul,
+	ol {
+		margin-bottom: 0;
+		margin-top: 0;
+
+		ol {
+			list-style-type: lower-alpha;
+		}
+	}
+}
+
+li {
+
+	> p {
+		margin-top: 16px;
+	}
+}
+
+dl {
+	padding: 0;
+
+	dt {
+		font-size: 1em;
+		font-style: italic;
+		font-weight: bold;
+		margin-top: 16px;
+		padding: 0;
+	}
+
+	dd {
+		margin-bottom: 16px;
+		padding: 0 16px;
+	}
+}
+
+dd {
+	margin-left: 0;
+}
