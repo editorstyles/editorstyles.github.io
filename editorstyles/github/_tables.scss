@@ -3,7 +3,7 @@ table {
 	border-spacing: 0;
 	display: block;
 	margin-top: 0;
-	margin-bottom: 16px;
+	margin-bottom: $margin-base-vertical;
 	overflow: auto;
 	width: 100%;
 	word-break: keep-all;
@@ -14,16 +14,16 @@ table {
 
 	th,
 	td {
-		border: 1px solid #ddd;
-		padding: 6px 13px;
+		border: $table-border-width $table-border-style $table-border-color;
+		padding: $table-cell-padding;
 	}
 
 	tr {
-		background-color: #fff;
-		border-top: 1px solid #ccc;
+		background-color: $table-background-color;
+		border-top: $tr-border-width $tr-border-style $tr-border-color;
 
 		&:nth-child(2n) {
-			background-color: #f8f8f8;
+			background-color: $table-background-color-accent;
 		}
 	}
 }

@@ -4,10 +4,12 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 600;
-	line-height: 1.25;
-	margin-bottom: 16px;
-	margin-top: 24px;
+	color: $headings-text-color;
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	line-height: $headings-line-height;
+	margin-bottom: $margin-base-vertical;
+	margin-top: $margin-large-vertical;
 
 	tt {
 		font-size: inherit;
@@ -15,50 +17,50 @@ h6 {
 }
 
 h1 {
-	border-bottom: 1px solid #eee;
-	font-size: 2em;
-	margin: 0.67em 0;
-	padding-bottom: 0.3em;
+	border-bottom: $h1-border-width $h1-border-style $h1-border-color;
+	font-size: $h1-font-size;
+	padding-bottom: $h1-padding-vertical;
 }
 
 h2 {
-	border-bottom: 1px solid #eee;
-	font-size: 1.5em;
-	padding-bottom: 0.3em;
+	border-bottom: $h2-border-width $h2-border-style $h2-border-color;
+	font-size: $h2-font-size;
+	padding-bottom: $h2-padding-vertical;
 }
 
 h3 {
-	font-size: 1.25em;
+	font-size: $h3-font-size;
 }
 
 h4 {
-	font-size: 1em;
+	font-size: $h4-font-size;
 }
 
 h5 {
-	font-size: 0.875em;
+	font-size: $h5-font-size;
 }
 
 h6 {
-	color: #777;
-	font-size: 0.85em;
+	color: $h6-text-color;
+	font-size: $h6-font-size;
 }
 
 p {
 	margin-top: 0;
-	margin-bottom: 16px;
+	margin-bottom: $margin-base-vertical;
 }
 
 a {
-	background-color: transparent;
-	color: #4078c0;
-	text-decoration: none;
+	background-color: $link-background-color;
+	color: $link-color;
+	text-decoration: $link-decoration;
 	-webkit-text-decoration-skip: objects;
 
 	&:active,
 	&:hover {
+		color: $link-hover-color;
 		outline-width: 0;
-		text-decoration: underline;
+		text-decoration: $link-hover-decoration;
 	}
 
 	&:not([href]) {
@@ -68,10 +70,10 @@ a {
 }
 
 blockquote {
-	border-left: 0.25em solid #ddd;
-	color: #777;
-	margin: 0 0 16px;
-	padding: 0 1em;
+	border-left: $blockquote-border-color $blockquote-border-style $blockquote-border-width;
+	color: $blockquote-text-color;
+	margin: 0 0 $margin-base-vertical;
+	padding: 0 $padding-base-horizontal;
 
 	> :first-child {
 		margin-top: 0;
@@ -92,17 +94,18 @@ kbd,
 pre,
 samp,
 tt {
-	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-family: $font-family-monospace;
 	font-size: 1em;
 }
 
 code,
 tt {
-	background-color: rgba(0, 0, 0, 0.04);
-	border-radius: 3px;
-	font-size: 85%;
+	background-color: $code-background-color;
+	border-radius: $border-radius-base;
+	color: $code-text-color;
+	font-size: $code-font-size;
 	margin: 0;
-	padding: 0.2em 0;
+	padding: $code-padding;
 
 	&:before,
 	&:after {
@@ -123,28 +126,29 @@ del {
 }
 
 kbd {
-	background-color: #fcfcfc;
-	border: solid 1px #ccc;
+	background-color: $kbd-background-color;
+	border: 1px solid #ccc;
 	border-bottom-color: #bbb;
-	border-radius: 3px;
+	border-radius: $border-radius-base;
 	box-shadow: inset 0 -1px 0 #bbb;
-	color: #555;
+	color: $kbd-text-color;
 	display: inline-block;
-	font-size: 11px;
-	line-height: 10px;
-	padding: 3px 5px;
+	font-size: $kbd-font-size;
+	line-height: $kbd-line-height;
+	padding: $kbd-padding;
 	vertical-align: middle;
 }
 
 pre {
-	background-color: #f7f7f7;
-	border-radius: 3px;
-	font-size: 85%;
-	line-height: 1.45;
+	background-color: $pre-background-color;
+	border-radius: $border-radius-base;
+	color: $pre-text-color;
+	font-size: $pre-font-size;
+	line-height: $pre-line-height;
 	margin-top: 0;
-	margin-bottom: 16px;
+	margin-bottom: $margin-base-vertical;
 	overflow: auto;
-	padding: 16px;
+	padding: $pre-padding;
 	word-wrap: normal;
 
 	> code {
@@ -177,7 +181,7 @@ pre {
 }
 
 .highlight {
-	margin-bottom: 16px;
+	margin-bottom: $margin-base-vertical;
 }
 
 .highlight pre {
@@ -186,11 +190,11 @@ pre {
 }
 
 hr {
-	background-color: #e7e7e7;
+	background-color: $hr-color;
 	border: 0;
 	box-sizing: content-box;
-	height: 0.25em;
-	margin: 24px 0;
+	height: $hr-width;
+	margin: $margin-large-vertical 0;
 	overflow: hidden;
 	padding: 0;
 

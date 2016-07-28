@@ -53,14 +53,13 @@ table {
 }
 
 .editor-style {
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-          text-size-adjust: 100%;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   line-height: 1.6;
-  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
   word-wrap: break-word;
 }
 
@@ -76,36 +75,31 @@ table {
   height: auto;
 }
 
-.editor-style img[align="right"] {
-  padding-left: 20px;
-}
-
-.editor-style img[align="left"] {
-  padding-right: 20px;
-}
-
 .editor-style .alignleft {
   float: left;
-  margin: 0.375em 1.75em 1.75em 0;
+  margin: 0;
+  margin-top: 0.3em;
+  margin-right: 1.6em;
+  margin-bottom: 1.6em;
 }
 
 .editor-style .alignright {
   float: right;
-  margin: 0.375em 0 1.75em 1.75em;
+  margin: 0;
+  margin-top: 0.3em;
+  margin-left: 1.6em;
+  margin-bottom: 1.6em;
 }
 
 .editor-style .aligncenter {
   clear: both;
   display: block;
-  margin: 0 auto 1.75em;
+  margin: 0 auto;
+  margin-bottom: 1.6em;
 }
 
 .editor-style svg:not(:root) {
   overflow: hidden;
-}
-
-.editor-style figure {
-  max-width: 100%;
 }
 
 .editor-style button:-moz-focusring,
@@ -117,7 +111,9 @@ table {
 
 .editor-style input {
   font: inherit;
-  font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 13px;
+  line-height: 1.4;
   margin: 0;
   overflow: visible;
 }
@@ -226,6 +222,8 @@ table {
 .editor-style h4,
 .editor-style h5,
 .editor-style h6 {
+  color: inherit;
+  font-family: inherit;
   font-weight: 600;
   line-height: 1.25;
   margin-bottom: 16px;
@@ -244,7 +242,6 @@ table {
 .editor-style h1 {
   border-bottom: 1px solid #eee;
   font-size: 2em;
-  margin: 0.67em 0;
   padding-bottom: 0.3em;
 }
 
@@ -268,7 +265,7 @@ table {
 
 .editor-style h6 {
   color: #777;
-  font-size: 0.85em;
+  font-size: 0.875em;
 }
 
 .editor-style p {
@@ -284,6 +281,7 @@ table {
 }
 
 .editor-style a:active, .editor-style a:hover {
+  color: #4078c0;
   outline-width: 0;
   text-decoration: underline;
 }
@@ -294,10 +292,10 @@ table {
 }
 
 .editor-style blockquote {
-  border-left: 0.25em solid #ddd;
+  border-left: #ddd solid 0.25em;
   color: #777;
   margin: 0 0 16px;
-  padding: 0 1em;
+  padding: 0 16px;
 }
 
 .editor-style blockquote > :first-child {
@@ -326,6 +324,7 @@ table {
 .editor-style tt {
   background-color: rgba(0, 0, 0, 0.04);
   border-radius: 3px;
+  color: inherit;
   font-size: 85%;
   margin: 0;
   padding: 0.2em 0;
@@ -349,7 +348,7 @@ table {
 
 .editor-style kbd {
   background-color: #fcfcfc;
-  border: solid 1px #ccc;
+  border: 1px solid #ccc;
   border-bottom-color: #bbb;
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 #bbb;
@@ -364,6 +363,7 @@ table {
 .editor-style pre {
   background-color: #f7f7f7;
   border-radius: 3px;
+  color: inherit;
   font-size: 85%;
   line-height: 1.45;
   margin-top: 0;
