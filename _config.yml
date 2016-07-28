@@ -9,7 +9,7 @@ markdown: kramdown
 exclude:
   - frasco.config.js
   - gulpfile.js
-  - LICENSE
+  # - LICENSE
   - node_modules
   - npm-debug.log
   - package.json
