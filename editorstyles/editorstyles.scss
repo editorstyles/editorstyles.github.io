@@ -1,9 +1,9 @@
 @charset "UTF-8";
-@import "reset-meyer";
-@import "reset-html5doctor";
-@import "reset-html5";
+@import "reset/meyer";
+@import "reset/html5doctor";
+@import "reset/html5";
 @import "unreset";
-@import "github/editor-style";
+@import "github";
 
 .editor-style {
 	margin: auto;
