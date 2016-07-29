@@ -1,3 +1,7 @@
+html {
+	box-sizing: content-box;
+}
+
 body {
 	margin: 8px;
 	line-height: normal;
@@ -5,11 +9,6 @@ body {
 
 p {
 	margin: 1em 0;
-}
-
-blockquote {
-	margin-left: 40px;
-	margin-right: 40px;
 }
 
 blockquote,
@@ -272,7 +271,6 @@ fieldset {
 }
 
 b, strong {
-	// font-weight: bolder;
 	font-weight: bold;
 }
 
@@ -287,6 +285,11 @@ tt, code, kbd, samp {
 pre {
 	font-family: monospace;
 	margin: 1em 0;
+}
+
+mark {
+	background-color: yellow;
+	color: black;
 }
 
 big {
