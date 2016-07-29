@@ -17,6 +17,8 @@ figure {
 }
 
 q {
+	quotes: "“" "”" "‘" "’";
+
 	&:before {
 		content: open-quote;
 	}
@@ -24,6 +26,12 @@ q {
 	&:after {
 		content: close-quote;
 	}
+}
+
+hr {
+	border: 1px inset;
+	box-sizing: border-box;
+	margin: 0.5em autl;
 }
 
 h1 {
@@ -270,12 +278,22 @@ fieldset {
 	-webkit-padding-after: 0.625em;
 }
 
+ins {
+	background-color: transparent;
+	text-decoration: underline;
+}
+
 b, strong {
 	font-weight: bold;
 }
 
 i, cite, em, var, address, dfn {
 	font-style: italic;
+}
+
+abbr[title], dfn[title] {
+	border-bottom: 0;
+	cursor: default;
 }
 
 tt, code, kbd, samp {
@@ -290,6 +308,8 @@ pre {
 mark {
 	background-color: yellow;
 	color: black;
+	font-style: normal;
+	font-weight: normal;
 }
 
 big {
@@ -300,14 +320,21 @@ small {
 	font-size: smaller;
 }
 
+sub, sup {
+	line-height: normal;
+	position: static;
+}
+
 sub {
-	vertical-align: sub;
 	font-size: smaller;
+	bottom: 0;
+	vertical-align: sub;
 }
 
 sup {
-	vertical-align: super;
 	font-size: smaller;
+	top: 0;
+	vertical-align: super;
 }
 
 ruby {
