@@ -280,6 +280,7 @@ fieldset {
 
 ins {
 	background-color: transparent;
+	font-weight: inherit;
 	text-decoration: underline;
 }
 
@@ -289,39 +290,46 @@ b, strong {
 
 i, cite, em, var, address, dfn {
 	font-style: italic;
+	font-weight: inherit;
 }
 
 abbr[title], dfn[title] {
 	border-bottom: 0;
 	cursor: default;
+	font-weight: inherit;
 }
 
 tt, code, kbd, samp {
 	font-family: monospace;
+	font-weight: inherit;
 }
 
 pre {
 	font-family: monospace;
 	margin: 1em 0;
+	white-space: pre;
 }
 
 mark {
 	background-color: yellow;
 	color: black;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: inherit;
 }
 
 big {
 	font-size: larger;
+	font-weight: inherit;
 }
 
 small {
 	font-size: smaller;
+	font-weight: inherit;
 }
 
 sub, sup {
-	line-height: normal;
+	font-weight: inherit;
+	line-height: inherit;
 	position: static;
 }
 
