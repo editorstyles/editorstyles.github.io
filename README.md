@@ -16,7 +16,7 @@ $ npm install --save editorstyles
 
 **Or, download manually:**
 
-[![unreset.css](https://img.shields.io/badge/Download-ZIP-yellow.svg)](https://github.com/editorstyles/editorstyles/archive/master.zip)
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-yellow.svg)](https://github.com/editorstyles/editorstyles/archive/master.zip)
 
 ## Import
 
