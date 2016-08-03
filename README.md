@@ -16,7 +16,7 @@ $ npm install --save editorstyles
 
 **Or, download manually:**
 
-[![unreset.css](https://img.shields.io/badge/Download-css-brightgreen.svg)](https://raw.githubusercontent.com/ixkaito/unreset-css/master/css)
+[![unreset.css](https://img.shields.io/badge/Download-css-brightgreen.svg)](https://github.com/editorstyles/editorstyles/tree/master/css)
 
 ## Import
 
